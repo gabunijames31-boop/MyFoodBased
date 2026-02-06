@@ -1,0 +1,120 @@
+body {
+    background-color: rgba(22, 21, 21, 0.882);
+    color: rgb(255, 255, 255);
+    min-height: 90vh;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: black;
+}
+nav a {
+    color: rgb(255, 255, 255);
+    margin-left: 3rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-bottom: 2px;
+    transition: 
+    color 0.3s ease-in-out,
+    border bottom 0.3s ease-in-out;
+    text-align: center;
+}
+nav a:hover {
+    color: rgba(255, 255, 255, 0.852);
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.food-card{
+    width: 260px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    background: rgba(73, 73, 73, 0.678);
+}
+.food-card img{
+    width: 100%;
+    height: 180px;  
+    object-fit: cover;
+}
+.food-info{
+    padding: 12px;
+    text-align: center;
+}
+.card-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}   
+html{
+    scroll-behavior: smooth;
+}
+section {
+    min-height: 100vh;  
+    align-items: center;    
+    padding: 20px;
+    box-sizing: border-box;
+}  
+.side-nav {
+    width: 140px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: #0000009d;
+    padding: 10px;
+    border-radius: 10px;
+}
+.side-nav a {
+    display: block;
+    padding: 8px 12px;
+    margin: 1px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 18px;
+}
+.side-nav a.active {
+    background-color: #ff6600;
+    color: white;
+}
+#Filipino{
+    background-color: rgba(142, 125, 162, 0.814);
+}
+#Korea{
+    background-color: rgba(129, 175, 175, 0.732);
+}
+#Italy{
+    background-color: rgba(138, 113, 119, 0.793);
+}
+#Canada{
+    background-color: rgba(152, 167, 133, 0.764);
+}
+.h1{
+    text-align: center;
+}
+.topnav{
+    text-align: center;
+    margin-left: 50%;
+    z-index: 1000;
+}   
+nav :hover{
+    background-color: #28bd72c5; 
+}
